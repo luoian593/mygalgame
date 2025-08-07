@@ -1,4 +1,5 @@
 
+changeFigure:none -left;
 changeBg:woshi.jpg;
 士宫:又梦到她了，她是谁？|为什么我和她会成为恋人？|算了，可能 只是我太炫压抑了吧;
 要去上学了.....;
