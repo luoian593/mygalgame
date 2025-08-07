@@ -1,0 +1,10 @@
+;好线路
+changeFigure:none;
+changeBg:menkou.jpg;
+？？？:好耶，宝宝最好啦。呀，马上要迟到了，快快跟上我。;
+changeBg:zoulang.jpg;
+changeFigure:none -next;
+？？？:哎呀，结果还是迟到了，不过今天本小姐就大发慈悲陪你一起罚站喽。;
+intro:好,幸福？|我是什么时候过上这种生活的？|这个。 女孩？|我认识吗？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeFigure:none -left -next;
+choose:努力回想:b.txt|思考太累了:gameout.txt;

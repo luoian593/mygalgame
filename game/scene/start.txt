@@ -1,16 +1,12 @@
 ; 初始场景，以及特效演示
 bgm:s_Title.mp3;
 unlockBgm:s_Title.mp3 -name=雲を追いかけて;
-intro:？？？ 我这是在哪？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
-changeBg:bg.png -next;
-unlockCg:bg.png -name=良夜; // 解锁CG并赋予名称
+intro:平凡的一天… -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:menkou.jpg -next;
+unlockCg:menkou.jpg -name=良夜;
 changeFigure:stand.png -left -next;
 setAnimation:enter-from-left -target=fig-left -next;
 ???:士宫？你怎么了，刚刚开始就一直在发呆是有什么心事吗？ -v1.wav;
-; 模版修改演示
-？？？:。。。 为什么不说话 我快要生气了 -v1.wav -fontSize=large;
-miniAvatar:stand.png;
-我是谁？士宫！你是不是这两天玩游戏把脑子玩坏了！;
-setTextbox:hide;
-changeFigure:stand.png;
-changeFigure:none -next;
+士宫:不，我没事。头有点痛。;
+???:打起精神哦，今天是暑假前的最后一天，你可是答应过我要和我在暑假去旅游哦。;
+choose:好:a.txt|算了吧:b.txt;
