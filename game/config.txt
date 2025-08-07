@@ -1,5 +1,6 @@
 Game_name:新的游戏;
 Game_key:11355d538b1d8dc;
-Title_img:WebGAL_New_Enter_Image.png;
+Title_img:menkou.jpg;
 Title_bgm:s_Title.mp3;
 Textbox_theme:imss;
+Game_Logo:menkou.jpg;
