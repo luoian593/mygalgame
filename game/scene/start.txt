@@ -1,1 +1,16 @@
-
+; 初始场景，以及特效演示
+bgm:s_Title.mp3;
+unlockBgm:s_Title.mp3 -name=雲を追いかけて;
+intro:？？？ 我这是在哪？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:bg.png -next;
+unlockCg:bg.png -name=良夜; // 解锁CG并赋予名称
+changeFigure:stand.png -left -next;
+setAnimation:enter-from-left -target=fig-left -next;
+???:士宫？你怎么了，刚刚开始就一直在发呆是有什么心事吗？ -v1.wav;
+; 模版修改演示
+？？？:。。。 为什么不说话 我快要生气了 -v1.wav -fontSize=large;
+miniAvatar:stand.png;
+我是谁？士宫！你是不是这两天玩游戏把脑子玩坏了！;
+setTextbox:hide;
+changeFigure:stand.png;
+changeFigure:none -next;
