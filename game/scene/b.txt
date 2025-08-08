@@ -5,3 +5,12 @@ changeBg:woshi.jpg;
 要去上学了.....;
 changeBg:menkou.jpg;
 一切都和梦里一样啊 不，我在想什么？今天可是开学第一天啊。;
+要上课了.....|;
+changeBg:bookroom1.jpg;
+班主任:新学期第一天，都给我打起精神了。对了，这位是新来的转校生，大家要好好相处。;
+changeFigure:stand3.png -right -zIndex=3;
+？？？:老师，我就坐这里吧。;
+士宫:这个人，我是不是见过？|是她！她到底是谁？！;
+changeFigure:none -right;
+但现在在上课只能等到下课了。;
+changeScene:z1.txt

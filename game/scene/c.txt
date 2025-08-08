@@ -1,0 +1,5 @@
+
+changeBg:taintai1.png;
+changeFigure:stand3.png;
+???:士宫，你真的不爱我吗？;
+choose:我不知道......:d.txt|不:die1.txt;

@@ -1,0 +1,9 @@
+;蝉在叫，人坏掉
+changeBg:taintai1.png;
+changeFigure:stand3.png;
+？？？:士宫不喜欢我啊，那我或许就没有存在的必要了。;;
+changeFigure:none;
+bgm:选择背景音乐;
+:???她这是什么意思？|对了:我叫优香哦    ？？？;
+bgm:选择背景音乐 -volume=100 -unlockname=蝉在叫;
+changeBg: 选择背景图片;

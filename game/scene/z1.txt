@@ -1,0 +1,13 @@
+;主线
+changeBg:bookroom1.jpg;
+:下课了.......|我要问清楚.....？她人呢;
+changeBg:zoulang.jpg;
+:不在这里？;
+changeBg:taintai1.png;
+changeFigure:stand3.png -left;
+???:啊，士宫，你来了。 -notend;
+士宫:你是谁？|为什么会出现在我的梦里？ -notend;
+changeFigure:stand4.png -left -next;
+???:我啊，当然是士宫的恋人啊，尽管你现在或许不记得我了|但我一直爱着士宫呢;
+士宫爱着我吗？;
+choose:或许吧:d.txt|不:c.txt;
